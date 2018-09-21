@@ -1,0 +1,14 @@
+#Fri Sep 14 22:45:08 MSK 2018
+unique_name=IOSurface
+compilerOpts=-framework IOSurface
+headers=IOSurface/IOSurface.h IOSurface/IOSurfaceObjC.h
+depends=stdlib CoreGraphics posix darwin Foundation
+includedHeaders=System/Library/Frameworks/IOSurface.framework/Headers/IOSurface.h System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceAPI.h System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceTypes.h System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceRef.h System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceObjC.h 5476a186b01c9d197cedb492f7c1c916beed6522beb9209e5d5f93f8450d8a77
+language=Objective-C
+interop=true
+linkerOpts=-framework IOSurface
+compiler_version=0.9.1
+headerFilter=IOSurface/**
+abi_version=1
+exportForwardDeclarations=cnames.structs.__IOSurface
+package=platform.IOSurface

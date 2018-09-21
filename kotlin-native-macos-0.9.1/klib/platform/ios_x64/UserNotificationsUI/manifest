@@ -1,0 +1,14 @@
+#Fri Sep 14 22:28:31 MSK 2018
+unique_name=UserNotificationsUI
+compilerOpts=-framework UserNotificationsUI
+headers=UserNotificationsUI/UserNotificationsUI.h
+depends=stdlib CoreGraphics posix darwin
+includedHeaders=System/Library/Frameworks/UserNotificationsUI.framework/Headers/UserNotificationsUI.h System/Library/Frameworks/UserNotificationsUI.framework/Headers/UNNotificationContentExtension.h ebb500f99bb3573a55bde0192aa638338e52c22998b99ab0c82166c8bd32cd02
+language=Objective-C
+interop=true
+linkerOpts=-framework UserNotificationsUI
+compiler_version=0.9.1
+headerFilter=UserNotificationsUI/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.UserNotificationsUI

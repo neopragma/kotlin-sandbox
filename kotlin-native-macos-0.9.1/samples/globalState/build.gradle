@@ -1,0 +1,10 @@
+apply plugin: 'org.jetbrains.kotlin.platform.native'
+
+components.main {
+    targets = ['macos_x64', 'linux_x64', 'mingw_x64']
+    outputKinds = [EXECUTABLE]
+
+    dependencies {
+        cinterop('global')
+    }
+}

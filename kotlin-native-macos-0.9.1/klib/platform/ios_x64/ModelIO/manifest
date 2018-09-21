@@ -1,0 +1,14 @@
+#Fri Sep 14 22:07:51 MSK 2018
+unique_name=ModelIO
+compilerOpts=-framework ModelIO
+headers=ModelIO/ModelIO.h
+depends=stdlib posix darwin Foundation
+includedHeaders=System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.h System/Library/Frameworks/ModelIO.framework/Headers/ModelIOExports.h System/Library/Frameworks/ModelIO.framework/Headers/MDLAsset.h System/Library/Frameworks/ModelIO.framework/Headers/MDLAssetResolver.h System/Library/Frameworks/ModelIO.framework/Headers/MDLObject.h System/Library/Frameworks/ModelIO.framework/Headers/MDLTypes.h System/Library/Frameworks/ModelIO.framework/Headers/MDLTransform.h System/Library/Frameworks/ModelIO.framework/Headers/MDLVertexDescriptor.h System/Library/Frameworks/ModelIO.framework/Headers/MDLMeshBuffer.h System/Library/Frameworks/ModelIO.framework/Headers/MDLAnimation.h System/Library/Frameworks/ModelIO.framework/Headers/MDLValueTypes.h System/Library/Frameworks/ModelIO.framework/Headers/MDLAnimatedValueTypes.h System/Library/Frameworks/ModelIO.framework/Headers/MDLCamera.h System/Library/Frameworks/ModelIO.framework/Headers/MDLLight.h System/Library/Frameworks/ModelIO.framework/Headers/MDLMaterial.h System/Library/Frameworks/ModelIO.framework/Headers/MDLMesh.h System/Library/Frameworks/ModelIO.framework/Headers/MDLSubmesh.h System/Library/Frameworks/ModelIO.framework/Headers/MDLTexture.h System/Library/Frameworks/ModelIO.framework/Headers/MDLTransformStack.h System/Library/Frameworks/ModelIO.framework/Headers/MDLVoxelArray.h 8af6b10ab29d98caa7c7660d71d52e34e429dd6bcb4eab8a0fe468281b90261d
+language=Objective-C
+interop=true
+linkerOpts=-framework ModelIO
+compiler_version=0.9.1
+headerFilter=ModelIO/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.ModelIO

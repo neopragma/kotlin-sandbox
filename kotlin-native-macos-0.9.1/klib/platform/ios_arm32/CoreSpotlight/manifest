@@ -1,0 +1,14 @@
+#Fri Sep 14 20:37:18 MSK 2018
+unique_name=CoreSpotlight
+compilerOpts=-framework CoreSpotlight
+headers=CoreSpotlight/CoreSpotlight.h
+depends=stdlib posix darwin Foundation
+includedHeaders=System/Library/Frameworks/CoreSpotlight.framework/Headers/CoreSpotlight.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSBase.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableItem.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableItemAttributeSet.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSPerson.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableIndex.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableItemAttributeSet_Categories.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableItemAttributeSet_General.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableItemAttributeSet_Documents.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableItemAttributeSet_Events.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableItemAttributeSet_Messaging.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableItemAttributeSet_Media.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableItemAttributeSet_Images.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchableItemAttributeSet_Places.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSIndexExtensionRequestHandler.h System/Library/Frameworks/CoreSpotlight.framework/Headers/CSSearchQuery.h 903bc13118ddb4fac510868a5756cc02bd7dfa430a94d4d175e67c148daf6c1f
+language=Objective-C
+interop=true
+linkerOpts=-framework CoreSpotlight
+compiler_version=0.9.1
+headerFilter=CoreSpotlight/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.CoreSpotlight

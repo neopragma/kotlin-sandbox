@@ -1,0 +1,14 @@
+#Fri Sep 14 21:10:16 MSK 2018
+unique_name=MediaToolbox
+compilerOpts=-framework MediaToolbox
+headers=MediaToolbox/MediaToolbox.h
+depends=stdlib
+includedHeaders=System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.h System/Library/Frameworks/MediaToolbox.framework/Headers/MTAudioProcessingTap.h System/Library/Frameworks/MediaToolbox.framework/Headers/MTFormatNames.h 27e641a77c84b0019a39a309e5346c584fc81a2694958d604a7a16f2b9016299
+language=Objective-C
+interop=true
+linkerOpts=-framework MediaToolbox
+compiler_version=0.9.1
+headerFilter=MediaToolbox/**
+abi_version=1
+exportForwardDeclarations=cnames.structs.opaqueMTAudioProcessingTap
+package=platform.MediaToolbox

@@ -1,0 +1,14 @@
+#Fri Sep 14 21:36:01 MSK 2018
+unique_name=HealthKitUI
+compilerOpts=-framework HealthKitUI
+headers=HealthKitUI/HealthKitUI.h
+depends=stdlib CoreGraphics posix darwin Foundation EAGL Metal QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/HealthKitUI.framework/Headers/HealthKitUI.h System/Library/Frameworks/HealthKitUI.framework/Headers/HKActivityRingView.h f67742d7ea8b5acba747e8c507ab9540c4149603cf4e909b1295a0a9d4aacd4a
+language=Objective-C
+interop=true
+linkerOpts=-framework HealthKitUI
+compiler_version=0.9.1
+headerFilter=HealthKitUI/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.HealthKitUI

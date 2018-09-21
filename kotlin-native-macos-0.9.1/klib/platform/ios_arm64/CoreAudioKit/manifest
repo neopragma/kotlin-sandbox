@@ -1,0 +1,14 @@
+#Fri Sep 14 21:31:23 MSK 2018
+unique_name=CoreAudioKit
+compilerOpts=-framework CoreAudioKit
+headers=CoreAudioKit/CoreAudioKit.h
+depends=stdlib CoreGraphics posix darwin Foundation EAGL Metal QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/CoreAudioKit.framework/Headers/CoreAudioKit.h System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioSwitcherView.h System/Library/Frameworks/CoreAudioKit.framework/Headers/CAInterAppAudioTransportView.h System/Library/Frameworks/CoreAudioKit.framework/Headers/CABTMIDILocalPeripheralViewController.h System/Library/Frameworks/CoreAudioKit.framework/Headers/CABTMIDICentralViewController.h System/Library/Frameworks/CoreAudioKit.framework/Headers/AUViewController.h eba587cf7b47bcf2d345a5b0b4c8fea704e5b433951d8498ccb5310786d2ed1a
+language=Objective-C
+interop=true
+linkerOpts=-framework CoreAudioKit
+compiler_version=0.9.1
+headerFilter=CoreAudioKit/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.CoreAudioKit

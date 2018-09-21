@@ -1,0 +1,14 @@
+#Fri Sep 14 22:26:16 MSK 2018
+unique_name=Speech
+compilerOpts=-framework Speech
+headers=Speech/Speech.h
+depends=stdlib posix darwin Foundation
+includedHeaders=System/Library/Frameworks/Speech.framework/Headers/Speech.h System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionResult.h System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionRequest.h System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTaskHint.h System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognitionTask.h System/Library/Frameworks/Speech.framework/Headers/SFSpeechRecognizer.h System/Library/Frameworks/Speech.framework/Headers/SFTranscriptionSegment.h System/Library/Frameworks/Speech.framework/Headers/SFTranscription.h 7aa761a5041eff25635689ec16e8f8b3f6acb197166c8932feeb06fa7e16504d
+language=Objective-C
+interop=true
+linkerOpts=-framework Speech
+compiler_version=0.9.1
+headerFilter=Speech/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.Speech

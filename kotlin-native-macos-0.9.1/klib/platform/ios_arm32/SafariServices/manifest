@@ -1,0 +1,14 @@
+#Fri Sep 14 20:57:38 MSK 2018
+unique_name=SafariServices
+compilerOpts=-framework SafariServices
+headers=SafariServices/SafariServices.h
+depends=stdlib posix darwin Foundation CoreGraphics EAGL Metal QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.h System/Library/Frameworks/SafariServices.framework/Headers/SFAuthenticationSession.h System/Library/Frameworks/SafariServices.framework/Headers/SFFoundation.h System/Library/Frameworks/SafariServices.framework/Headers/SFContentBlockerManager.h System/Library/Frameworks/SafariServices.framework/Headers/SFError.h System/Library/Frameworks/SafariServices.framework/Headers/SFContentBlockerState.h System/Library/Frameworks/SafariServices.framework/Headers/SFSafariViewController.h System/Library/Frameworks/SafariServices.framework/Headers/SFSafariViewControllerConfiguration.h System/Library/Frameworks/SafariServices.framework/Headers/SSReadingList.h 773c3d115a3ac5b3c4de15f33ac0c2f6a590da3aa6e3693d93484887f4ec72e1
+language=Objective-C
+interop=true
+linkerOpts=-framework SafariServices
+compiler_version=0.9.1
+headerFilter=SafariServices/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.SafariServices

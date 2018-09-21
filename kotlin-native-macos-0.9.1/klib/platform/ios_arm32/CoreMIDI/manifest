@@ -1,0 +1,14 @@
+#Fri Sep 14 20:20:41 MSK 2018
+unique_name=CoreMIDI
+compilerOpts=-framework CoreMIDI
+headers=CoreMIDI/CoreMIDI.h
+depends=stdlib posix darwin
+includedHeaders=System/Library/Frameworks/CoreMIDI.framework/Headers/CoreMIDI.h System/Library/Frameworks/CoreMIDI.framework/Headers/MIDIServices.h System/Library/Frameworks/CoreMIDI.framework/Headers/MIDISetup.h System/Library/Frameworks/CoreMIDI.framework/Headers/MIDIThruConnection.h System/Library/Frameworks/CoreMIDI.framework/Headers/MIDIDriver.h System/Library/Frameworks/CoreMIDI.framework/Headers/MIDINetworkSession.h 707b2cf4d1c945e3ce8ed2518817749929bc3b95a6bc21d9b08c270244aa12aa
+language=Objective-C
+interop=true
+linkerOpts=-framework CoreMIDI
+compiler_version=0.9.1
+headerFilter=CoreMIDI/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.CoreMIDI

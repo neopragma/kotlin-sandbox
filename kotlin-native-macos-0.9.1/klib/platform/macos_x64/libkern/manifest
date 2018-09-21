@@ -1,0 +1,14 @@
+#Fri Sep 14 22:34:12 MSK 2018
+unique_name=libkern
+compilerOpts=-DIOKIT
+headers=libkern/OSTypes.h libkern/OSAtomic.h device/device_types.h device/device_types.h
+depends=stdlib
+includedHeaders=usr/include/libkern/OSTypes.h usr/include/libkern/OSAtomic.h usr/include/libkern/OSAtomicDeprecated.h usr/include/libkern/OSSpinLockDeprecated.h usr/include/libkern/OSAtomicQueue.h usr/include/device/device_types.h b759a4a945d637f7624c8d4aca69172614a10c13583c658100f6f1f8a99917f3
+language=Objective-C
+interop=true
+linkerOpts=
+compiler_version=0.9.1
+headerFilter=libkern/** device/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.libkern

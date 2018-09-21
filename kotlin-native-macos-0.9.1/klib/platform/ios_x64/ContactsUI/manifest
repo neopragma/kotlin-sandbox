@@ -1,0 +1,14 @@
+#Fri Sep 14 22:11:49 MSK 2018
+unique_name=ContactsUI
+compilerOpts=-framework ContactsUI
+headers=ContactsUI/ContactsUI.h
+depends=stdlib posix darwin Foundation CoreGraphics EAGL QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/ContactsUI.framework/Headers/ContactsUI.h System/Library/Frameworks/ContactsUI.framework/Headers/CNContactPickerViewController.h System/Library/Frameworks/ContactsUI.framework/Headers/CNContactViewController.h System/Library/Frameworks/ContactsUI.framework/Headers/UIApplicationShortcutIcon+Contacts.h ef1e711d95cdb4c747620e13f4151b0fe712d202817084f3d9e08fe39d9801c9
+language=Objective-C
+interop=true
+linkerOpts=-framework ContactsUI
+compiler_version=0.9.1
+headerFilter=ContactsUI/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.ContactsUI

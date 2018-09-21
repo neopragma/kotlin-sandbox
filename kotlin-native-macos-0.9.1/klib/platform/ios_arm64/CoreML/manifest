@@ -1,0 +1,14 @@
+#Fri Sep 14 21:13:58 MSK 2018
+unique_name=CoreML
+compilerOpts=-framework CoreML
+headers=CoreML/CoreML.h
+depends=stdlib posix darwin Foundation
+includedHeaders=System/Library/Frameworks/CoreML.framework/Headers/CoreML.h System/Library/Frameworks/CoreML.framework/Headers/MLFeatureType.h System/Library/Frameworks/CoreML.framework/Headers/MLFeatureValue.h System/Library/Frameworks/CoreML.framework/Headers/MLMultiArray.h System/Library/Frameworks/CoreML.framework/Headers/MLFeatureDescription.h System/Library/Frameworks/CoreML.framework/Headers/MLDictionaryConstraint.h System/Library/Frameworks/CoreML.framework/Headers/MLMultiArrayConstraint.h System/Library/Frameworks/CoreML.framework/Headers/MLImageConstraint.h System/Library/Frameworks/CoreML.framework/Headers/MLFeatureProvider.h System/Library/Frameworks/CoreML.framework/Headers/MLDictionaryFeatureProvider.h System/Library/Frameworks/CoreML.framework/Headers/MLModel.h System/Library/Frameworks/CoreML.framework/Headers/MLModelDescription.h System/Library/Frameworks/CoreML.framework/Headers/MLModelMetadataKeys.h System/Library/Frameworks/CoreML.framework/Headers/MLPredictionOptions.h System/Library/Frameworks/CoreML.framework/Headers/MLModel+MLModelCompilation.h System/Library/Frameworks/CoreML.framework/Headers/MLModelError.h System/Library/Frameworks/CoreML.framework/Headers/MLCustomLayer.h b9faebaf99945113e238591085638b88c976f5d8c78f6b490dc714008bc596de
+language=Objective-C
+interop=true
+linkerOpts=-framework CoreML
+compiler_version=0.9.1
+headerFilter=CoreML/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.CoreML

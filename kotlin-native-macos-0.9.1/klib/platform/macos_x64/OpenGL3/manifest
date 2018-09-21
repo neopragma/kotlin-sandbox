@@ -1,0 +1,14 @@
+#Fri Sep 14 22:35:38 MSK 2018
+unique_name=OpenGL3
+compilerOpts=-framework OpenGL
+headers=OpenGL/gl3.h OpenGL/gl3ext.h
+depends=stdlib
+includedHeaders=System/Library/Frameworks/OpenGL.framework/Headers/gl3.h System/Library/Frameworks/OpenGL.framework/Headers/gl3ext.h 64928219bbb4a1aee2ae956ac747929b0b9ddf6c1a288c480cb2145ab27343a4
+language=Objective-C
+interop=true
+linkerOpts=-framework OpenGL
+compiler_version=0.9.1
+headerFilter=OpenGL/gl3.h OpenGL/gl3ext.h
+abi_version=1
+exportForwardDeclarations=
+package=platform.OpenGL3

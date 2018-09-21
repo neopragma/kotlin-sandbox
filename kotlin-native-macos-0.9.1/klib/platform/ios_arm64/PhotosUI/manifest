@@ -1,0 +1,14 @@
+#Fri Sep 14 21:46:22 MSK 2018
+unique_name=PhotosUI
+compilerOpts=-framework PhotosUI
+headers=PhotosUI/PhotosUI.h
+depends=stdlib CoreGraphics posix darwin Foundation EAGL Metal QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/PhotosUI.framework/Headers/PhotosUI.h System/Library/Frameworks/PhotosUI.framework/Headers/PHContentEditingController.h System/Library/Frameworks/PhotosUI.framework/Headers/PHLivePhotoView.h 8abf19955340b3a97ee120b7ff7999c4bda65cbc97936e56304be6b9874498bb
+language=Objective-C
+interop=true
+linkerOpts=-framework PhotosUI
+compiler_version=0.9.1
+headerFilter=PhotosUI/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.PhotosUI

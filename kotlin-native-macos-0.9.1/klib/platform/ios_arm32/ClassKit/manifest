@@ -1,0 +1,14 @@
+#Fri Sep 14 20:27:53 MSK 2018
+unique_name=ClassKit
+compilerOpts=-framework ClassKit
+headers=ClassKit/ClassKit.h
+depends=stdlib posix darwin Foundation
+includedHeaders=System/Library/Frameworks/ClassKit.framework/Headers/ClassKit.h System/Library/Frameworks/ClassKit.framework/Headers/CLSDefines.h System/Library/Frameworks/ClassKit.framework/Headers/CLSObject.h System/Library/Frameworks/ClassKit.framework/Headers/CLSContext.h System/Library/Frameworks/ClassKit.framework/Headers/CLSActivity.h System/Library/Frameworks/ClassKit.framework/Headers/CLSActivityItem.h System/Library/Frameworks/ClassKit.framework/Headers/CLSScoreItem.h System/Library/Frameworks/ClassKit.framework/Headers/CLSBinaryItem.h System/Library/Frameworks/ClassKit.framework/Headers/CLSQuantityItem.h System/Library/Frameworks/ClassKit.framework/Headers/CLSDataStore.h System/Library/Frameworks/ClassKit.framework/Headers/NSUserActivity+CLSDeepLinks.h 32084010789e981741fde2cdece3db796facccf93f5c59c0108b2e5af85988f8
+language=Objective-C
+interop=true
+linkerOpts=-framework ClassKit
+compiler_version=0.9.1
+headerFilter=ClassKit/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.ClassKit

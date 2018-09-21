@@ -1,0 +1,14 @@
+#Fri Sep 14 20:06:53 MSK 2018
+unique_name=CFNetwork
+compilerOpts=-framework CFNetwork
+headers=CFNetwork/CFNetwork.h
+depends=stdlib
+includedHeaders=System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h System/Library/Frameworks/CFNetwork.framework/Headers/CFNetworkDefs.h System/Library/Frameworks/CFNetwork.framework/Headers/CFNetworkErrors.h System/Library/Frameworks/CFNetwork.framework/Headers/CFSocketStream.h System/Library/Frameworks/CFNetwork.framework/Headers/CFHost.h System/Library/Frameworks/CFNetwork.framework/Headers/CFNetServices.h System/Library/Frameworks/CFNetwork.framework/Headers/CFFTPStream.h System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPMessage.h System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPStream.h System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPAuthentication.h System/Library/Frameworks/CFNetwork.framework/Headers/CFNetDiagnostics.h System/Library/Frameworks/CFNetwork.framework/Headers/CFProxySupport.h a5ca69ea9f41783f053323847b241936057d6bad52b48d8c94d7f0ad4ac15181
+language=Objective-C
+interop=true
+linkerOpts=-framework CFNetwork
+compiler_version=0.9.1
+headerFilter=CFNetwork/**
+abi_version=1
+exportForwardDeclarations=cnames.structs.__CFHost cnames.structs.__CFNetService cnames.structs.__CFNetServiceMonitor cnames.structs.__CFNetServiceBrowser cnames.structs.__CFHTTPMessage cnames.structs._CFHTTPAuthentication cnames.structs.__CFNetDiagnostic
+package=platform.CFNetwork

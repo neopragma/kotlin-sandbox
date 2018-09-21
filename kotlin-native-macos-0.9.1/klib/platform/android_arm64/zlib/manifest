@@ -1,0 +1,13 @@
+#Fri Sep 14 20:00:10 MSK 2018
+unique_name=zlib
+compilerOpts=-DByte\=uByte -DBytef\=uBytef
+headers=zconf.h zlib.h
+depends=stdlib
+includedHeaders=usr/include/zlib.h b396b6c797ee07ce5bd3ba01920f6f609d7f90fd6681beebb1c8e539b74b4674
+interop=true
+linkerOpts=-lz
+compiler_version=0.9.1
+headerFilter=zlib.h
+abi_version=1
+exportForwardDeclarations=
+package=platform.zlib

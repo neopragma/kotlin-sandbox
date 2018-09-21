@@ -1,0 +1,14 @@
+#Fri Sep 14 20:42:05 MSK 2018
+unique_name=NewsstandKit
+compilerOpts=-framework NewsstandKit
+headers=NewsstandKit/NewsstandKit.h
+depends=stdlib posix darwin
+includedHeaders=System/Library/Frameworks/NewsstandKit.framework/Headers/NewsstandKit.h System/Library/Frameworks/NewsstandKit.framework/Headers/NKLibrary.h System/Library/Frameworks/NewsstandKit.framework/Headers/NKIssue.h System/Library/Frameworks/NewsstandKit.framework/Headers/NKAssetDownload.h System/Library/Frameworks/NewsstandKit.framework/Headers/NKNSURLConnectionAdditions.h 95e23d01de5a5d2e69b3ceca0d021298bd6b5b0bec796799fb2e6793badf9bd9
+language=Objective-C
+interop=true
+linkerOpts=-framework NewsstandKit
+compiler_version=0.9.1
+headerFilter=NewsstandKit/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.NewsstandKit

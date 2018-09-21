@@ -1,0 +1,14 @@
+#Fri Sep 14 21:48:37 MSK 2018
+unique_name=iAd
+compilerOpts=-framework iAd
+headers=iAd/iAd.h
+depends=stdlib CoreGraphics posix darwin Foundation EAGL Metal QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/iAd.framework/Headers/iAd.h System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h System/Library/Frameworks/iAd.framework/Headers/ADBannerView_Deprecated.h System/Library/Frameworks/iAd.framework/Headers/ADClient.h System/Library/Frameworks/iAd.framework/Headers/ADInterstitialAd.h System/Library/Frameworks/iAd.framework/Headers/MPMoviePlayerController_iAdPreroll.h System/Library/Frameworks/iAd.framework/Headers/AVPlayerViewController_iAdPreroll.h System/Library/Frameworks/iAd.framework/Headers/UIViewControlleriAdAdditions.h 477479f1bcc8a6f579728410128d732a18bb27f386cebeb256423fd9e0e27a8d
+language=Objective-C
+interop=true
+linkerOpts=-framework iAd
+compiler_version=0.9.1
+headerFilter=iAd/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.iAd

@@ -1,0 +1,11 @@
+apply plugin: 'org.jetbrains.kotlin.platform.native'
+
+components.main {
+    targets = ['mingw_x64']
+    outputKinds = [EXECUTABLE]
+    baseName = 'MessageBox'
+
+    target('mingw_x64') {
+        linkerOpts "-Wl,--subsystem,windows"
+    }
+}

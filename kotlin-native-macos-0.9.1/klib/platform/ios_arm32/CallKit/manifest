@@ -1,0 +1,14 @@
+#Fri Sep 14 20:25:59 MSK 2018
+unique_name=CallKit
+compilerOpts=-framework CallKit
+headers=CallKit/CallKit.h
+depends=stdlib posix darwin Foundation
+includedHeaders=System/Library/Frameworks/CallKit.framework/Headers/CallKit.h System/Library/Frameworks/CallKit.framework/Headers/CXBase.h System/Library/Frameworks/CallKit.framework/Headers/CXCallUpdate.h System/Library/Frameworks/CallKit.framework/Headers/CXHandle.h System/Library/Frameworks/CallKit.framework/Headers/CXError.h System/Library/Frameworks/CallKit.framework/Headers/CXAction.h System/Library/Frameworks/CallKit.framework/Headers/CXCallAction.h System/Library/Frameworks/CallKit.framework/Headers/CXStartCallAction.h System/Library/Frameworks/CallKit.framework/Headers/CXAnswerCallAction.h System/Library/Frameworks/CallKit.framework/Headers/CXEndCallAction.h System/Library/Frameworks/CallKit.framework/Headers/CXSetHeldCallAction.h System/Library/Frameworks/CallKit.framework/Headers/CXSetMutedCallAction.h System/Library/Frameworks/CallKit.framework/Headers/CXSetGroupCallAction.h System/Library/Frameworks/CallKit.framework/Headers/CXPlayDTMFCallAction.h System/Library/Frameworks/CallKit.framework/Headers/CXTransaction.h System/Library/Frameworks/CallKit.framework/Headers/CXProvider.h System/Library/Frameworks/CallKit.framework/Headers/CXProviderConfiguration.h System/Library/Frameworks/CallKit.framework/Headers/CXCall.h System/Library/Frameworks/CallKit.framework/Headers/CXCallObserver.h System/Library/Frameworks/CallKit.framework/Headers/CXCallController.h System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectory.h System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryManager.h System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryProvider.h System/Library/Frameworks/CallKit.framework/Headers/CXCallDirectoryExtensionContext.h 83043d2e44ead31c5585e4d370ab1781be80bfbe7c25f25ef16a46fe25f0ddf1
+language=Objective-C
+interop=true
+linkerOpts=-framework CallKit
+compiler_version=0.9.1
+headerFilter=CallKit/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.CallKit

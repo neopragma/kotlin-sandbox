@@ -1,0 +1,14 @@
+#Fri Sep 14 22:27:31 MSK 2018
+unique_name=Twitter
+compilerOpts=-framework Twitter
+headers=Twitter/Twitter.h
+depends=stdlib posix darwin Foundation CoreGraphics EAGL QuartzCore UIKit Social
+includedHeaders=System/Library/Frameworks/Twitter.framework/Headers/Twitter.h System/Library/Frameworks/Twitter.framework/Headers/TWRequest.h System/Library/Frameworks/Twitter.framework/Headers/TWTweetComposeViewController.h b24d0d740e39d4df59d0e070dd5df38266a420caa5bad65c239e7eca83e3cfc4
+language=Objective-C
+interop=true
+linkerOpts=-framework Twitter
+compiler_version=0.9.1
+headerFilter=Twitter/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.Twitter

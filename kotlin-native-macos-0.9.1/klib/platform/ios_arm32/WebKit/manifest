@@ -1,0 +1,14 @@
+#Fri Sep 14 21:03:12 MSK 2018
+unique_name=WebKit
+compilerOpts=-framework WebKit
+headers=WebKit/WebKit.h
+depends=stdlib CoreGraphics posix darwin Foundation EAGL Metal QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/WebKit.framework/Headers/WebKit.h System/Library/Frameworks/WebKit.framework/Headers/WKBackForwardList.h System/Library/Frameworks/WebKit.framework/Headers/WKFoundation.h System/Library/Frameworks/WebKit.framework/Headers/WKBackForwardListItem.h System/Library/Frameworks/WebKit.framework/Headers/WKContentRuleList.h System/Library/Frameworks/WebKit.framework/Headers/WKContentRuleListStore.h System/Library/Frameworks/WebKit.framework/Headers/WKError.h System/Library/Frameworks/WebKit.framework/Headers/WKFrameInfo.h System/Library/Frameworks/WebKit.framework/Headers/WKSecurityOrigin.h System/Library/Frameworks/WebKit.framework/Headers/WKWebView.h System/Library/Frameworks/WebKit.framework/Headers/WKHTTPCookieStore.h System/Library/Frameworks/WebKit.framework/Headers/WKNavigation.h System/Library/Frameworks/WebKit.framework/Headers/WKNavigationAction.h System/Library/Frameworks/WebKit.framework/Headers/WKNavigationDelegate.h System/Library/Frameworks/WebKit.framework/Headers/WKNavigationResponse.h System/Library/Frameworks/WebKit.framework/Headers/WKOpenPanelParameters.h System/Library/Frameworks/WebKit.framework/Headers/WKPreferences.h System/Library/Frameworks/WebKit.framework/Headers/WKPreviewActionItem.h System/Library/Frameworks/WebKit.framework/Headers/WKPreviewActionItemIdentifiers.h System/Library/Frameworks/WebKit.framework/Headers/WKPreviewElementInfo.h System/Library/Frameworks/WebKit.framework/Headers/WKProcessPool.h System/Library/Frameworks/WebKit.framework/Headers/WKScriptMessage.h System/Library/Frameworks/WebKit.framework/Headers/WKScriptMessageHandler.h System/Library/Frameworks/WebKit.framework/Headers/WKSnapshotConfiguration.h System/Library/Frameworks/WebKit.framework/Headers/WKUIDelegate.h System/Library/Frameworks/WebKit.framework/Headers/WKURLSchemeHandler.h System/Library/Frameworks/WebKit.framework/Headers/WKURLSchemeTask.h System/Library/Frameworks/WebKit.framework/Headers/WKUserContentController.h System/Library/Frameworks/WebKit.framework/Headers/WKUserScript.h System/Library/Frameworks/WebKit.framework/Headers/WKWebViewConfiguration.h System/Library/Frameworks/WebKit.framework/Headers/WKDataDetectorTypes.h System/Library/Frameworks/WebKit.framework/Headers/WKWebsiteDataRecord.h System/Library/Frameworks/WebKit.framework/Headers/WKWebsiteDataStore.h System/Library/Frameworks/WebKit.framework/Headers/WKWindowFeatures.h System/Library/Frameworks/WebKit.framework/Headers/WebKitLegacy.h 3d80be0822951589bb7663e8c8fa7123d159cc949d6a6b447e4e794e31a52bb7
+language=Objective-C
+interop=true
+linkerOpts=-framework WebKit
+compiler_version=0.9.1
+headerFilter=WebKit/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.WebKit

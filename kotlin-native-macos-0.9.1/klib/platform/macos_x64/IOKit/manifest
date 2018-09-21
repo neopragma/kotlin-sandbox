@@ -1,0 +1,14 @@
+#Fri Sep 14 22:37:17 MSK 2018
+unique_name=IOKit
+compilerOpts=-framework IOKit
+headers=IOKit/IOKitLib.h IOKit/hidsystem/IOLLEvent.h
+depends=stdlib
+includedHeaders=System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h System/Library/Frameworks/IOKit.framework/Headers/IOTypes.h System/Library/Frameworks/IOKit.framework/Headers/IOReturn.h System/Library/Frameworks/IOKit.framework/Headers/IOKitKeys.h System/Library/Frameworks/IOKit.framework/Headers/OSMessageNotification.h System/Library/Frameworks/IOKit.framework/Headers/hidsystem/IOLLEvent.h System/Library/Frameworks/IOKit.framework/Headers/hidsystem/IOHIDTypes.h System/Library/Frameworks/IOKit.framework/Headers/graphics/IOGraphicsTypes.h System/Library/Frameworks/IOKit.framework/Headers/IOSharedLock.h 7b26b1df15d803f469872f823567c293e59bc603dac64048f565edff299a98fc
+language=Objective-C
+interop=true
+linkerOpts=-framework IOKit
+compiler_version=0.9.1
+headerFilter=IOKit/**
+abi_version=1
+exportForwardDeclarations=cnames.structs.IONotificationPort
+package=platform.IOKit

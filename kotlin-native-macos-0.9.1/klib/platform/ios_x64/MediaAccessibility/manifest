@@ -1,0 +1,14 @@
+#Fri Sep 14 22:08:34 MSK 2018
+unique_name=MediaAccessibility
+compilerOpts=-framework MediaAccessibility
+headers=MediaAccessibility/MediaAccessibility.h
+depends=stdlib
+includedHeaders=System/Library/Frameworks/MediaAccessibility.framework/Headers/MediaAccessibility.h System/Library/Frameworks/MediaAccessibility.framework/Headers/MADefinitions.h System/Library/Frameworks/MediaAccessibility.framework/Headers/MACaptionAppearance.h System/Library/Frameworks/MediaAccessibility.framework/Headers/MAAudibleMedia.h ac14873097b35c7f257532ccd69d675959f90d69a67f6cee977e5b1a50eca9b1
+language=Objective-C
+interop=true
+linkerOpts=-framework MediaAccessibility
+compiler_version=0.9.1
+headerFilter=MediaAccessibility/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.MediaAccessibility

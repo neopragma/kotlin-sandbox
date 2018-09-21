@@ -1,0 +1,14 @@
+#Fri Sep 14 21:09:30 MSK 2018
+unique_name=CoreMedia
+compilerOpts=-framework CoreMedia
+headers=CoreMedia/CoreMedia.h
+depends=stdlib CoreGraphics
+includedHeaders=System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h System/Library/Frameworks/CoreMedia.framework/Headers/CMBase.h System/Library/Frameworks/CoreMedia.framework/Headers/CMTime.h System/Library/Frameworks/CoreMedia.framework/Headers/CMTimeRange.h System/Library/Frameworks/CoreMedia.framework/Headers/CMFormatDescription.h System/Library/Frameworks/CoreMedia.framework/Headers/CMFormatDescriptionBridge.h System/Library/Frameworks/CoreMedia.framework/Headers/CMBlockBuffer.h System/Library/Frameworks/CoreMedia.framework/Headers/CMAttachment.h System/Library/Frameworks/CoreMedia.framework/Headers/CMBufferQueue.h System/Library/Frameworks/CoreMedia.framework/Headers/CMSampleBuffer.h System/Library/Frameworks/CoreMedia.framework/Headers/CMSimpleQueue.h System/Library/Frameworks/CoreMedia.framework/Headers/CMMemoryPool.h System/Library/Frameworks/CoreMedia.framework/Headers/CMSync.h System/Library/Frameworks/CoreMedia.framework/Headers/CMTextMarkup.h System/Library/Frameworks/CoreMedia.framework/Headers/CMMetadata.h System/Library/Frameworks/CoreMedia.framework/Headers/CMAudioClock.h 6f370895799f4450345fd9af0508c9500511aaaa5299146f9d4f2453e7fdad66
+language=Objective-C
+interop=true
+linkerOpts=-framework CoreMedia
+compiler_version=0.9.1
+headerFilter=CoreMedia/**
+abi_version=1
+exportForwardDeclarations=cnames.structs.opaqueCMFormatDescription cnames.structs.OpaqueCMBlockBuffer cnames.structs.opaqueCMBufferQueue cnames.structs.opaqueCMBufferQueueTriggerToken cnames.structs.opaqueCMSampleBuffer cnames.structs.opaqueCMSimpleQueue cnames.structs.OpaqueCMMemoryPool cnames.structs.OpaqueCMClock cnames.structs.OpaqueCMTimebase
+package=platform.CoreMedia

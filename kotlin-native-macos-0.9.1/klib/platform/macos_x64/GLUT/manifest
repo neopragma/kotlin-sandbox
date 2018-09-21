@@ -1,0 +1,14 @@
+#Fri Sep 14 22:37:35 MSK 2018
+unique_name=GLUT
+compilerOpts=-framework GLUT
+headers=GLUT/glut.h
+depends=stdlib
+includedHeaders=System/Library/Frameworks/GLUT.framework/Headers/glut.h dd7375f833548725866d9ddd171876d0f8851519e5484d3d0d2a27d0560c2890
+language=Objective-C
+interop=true
+linkerOpts=-framework GLUT
+compiler_version=0.9.1
+headerFilter=GLUT/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.GLUT

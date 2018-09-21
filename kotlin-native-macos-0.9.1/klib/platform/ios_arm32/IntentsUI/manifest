@@ -1,0 +1,14 @@
+#Fri Sep 14 20:49:06 MSK 2018
+unique_name=IntentsUI
+compilerOpts=-framework IntentsUI
+headers=IntentsUI/IntentsUI.h
+depends=stdlib CoreGraphics posix darwin
+includedHeaders=System/Library/Frameworks/IntentsUI.framework/Headers/IntentsUI.h System/Library/Frameworks/IntentsUI.framework/Headers/INImage+IntentsUI.h System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewControlling.h System/Library/Frameworks/IntentsUI.framework/Headers/INUIHostedViewSiriProviding.h e2008c981b4aefada77401e24b893f897af4e7024c9ba77f2d3a64f209b0002e
+language=Objective-C
+interop=true
+linkerOpts=-framework IntentsUI
+compiler_version=0.9.1
+headerFilter=IntentsUI/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.IntentsUI

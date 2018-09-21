@@ -1,0 +1,14 @@
+#Fri Sep 14 20:55:02 MSK 2018
+unique_name=NotificationCenter
+compilerOpts=-framework NotificationCenter
+headers=NotificationCenter/NotificationCenter.h
+depends=stdlib CoreGraphics posix darwin Foundation EAGL Metal QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/NotificationCenter.framework/Headers/NotificationCenter.h System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetProviding.h System/Library/Frameworks/NotificationCenter.framework/Headers/NotificationCenterDefines.h System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetTypes.h System/Library/Frameworks/NotificationCenter.framework/Headers/NCWidgetController.h fbeeb6327b87c11875922784e394f804673653a8e394e42d794107135e70bf71
+language=Objective-C
+interop=true
+linkerOpts=-framework NotificationCenter
+compiler_version=0.9.1
+headerFilter=NotificationCenter/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.NotificationCenter

@@ -1,0 +1,14 @@
+#Fri Sep 14 22:14:32 MSK 2018
+unique_name=ReplayKit
+compilerOpts=-framework ReplayKit
+headers=ReplayKit/ReplayKit.h
+depends=stdlib posix darwin Foundation CoreGraphics EAGL QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/ReplayKit.framework/Headers/ReplayKit.h System/Library/Frameworks/ReplayKit.framework/Headers/RPScreenRecorder.h System/Library/Frameworks/ReplayKit.framework/Headers/RPPreviewViewController.h System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastExtension.h System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcastConfiguration.h System/Library/Frameworks/ReplayKit.framework/Headers/RPBroadcast.h System/Library/Frameworks/ReplayKit.framework/Headers/RPError.h a0636a8b6518f68080d8e17c770ef3e26bb7c781621a4188c47de4641d617bf3
+language=Objective-C
+interop=true
+linkerOpts=-framework ReplayKit
+compiler_version=0.9.1
+headerFilter=ReplayKit/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.ReplayKit

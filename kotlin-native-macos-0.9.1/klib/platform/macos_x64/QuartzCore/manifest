@@ -1,0 +1,14 @@
+#Fri Sep 14 22:49:44 MSK 2018
+unique_name=QuartzCore
+compilerOpts=-framework QuartzCore
+headers=QuartzCore/QuartzCore.h QuartzCore/CIImage.h QuartzCore/CIColor.h
+depends=stdlib CoreGraphics posix darwin Foundation Metal
+includedHeaders=System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h System/Library/Frameworks/QuartzCore.framework/Headers/CoreImage.h System/Library/Frameworks/QuartzCore.framework/Headers/CoreVideo.h System/Library/Frameworks/QuartzCore.framework/Headers/CoreAnimation.h System/Library/Frameworks/QuartzCore.framework/Headers/CABase.h System/Library/Frameworks/QuartzCore.framework/Headers/CATransform3D.h System/Library/Frameworks/QuartzCore.framework/Headers/CAAnimation.h System/Library/Frameworks/QuartzCore.framework/Headers/CALayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CAMediaTiming.h System/Library/Frameworks/QuartzCore.framework/Headers/CAConstraintLayoutManager.h System/Library/Frameworks/QuartzCore.framework/Headers/CAMetalLayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CAEmitterCell.h System/Library/Frameworks/QuartzCore.framework/Headers/CAEmitterLayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CAGradientLayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CAMediaTimingFunction.h System/Library/Frameworks/QuartzCore.framework/Headers/CAOpenGLLayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CARemoteLayerClient.h System/Library/Frameworks/QuartzCore.framework/Headers/CARemoteLayerServer.h System/Library/Frameworks/QuartzCore.framework/Headers/CARenderer.h System/Library/Frameworks/QuartzCore.framework/Headers/CAReplicatorLayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CAScrollLayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CAShapeLayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CATextLayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CATiledLayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CATransaction.h System/Library/Frameworks/QuartzCore.framework/Headers/CATransformLayer.h System/Library/Frameworks/QuartzCore.framework/Headers/CAValueFunction.h System/Library/Frameworks/QuartzCore.framework/Headers/CIImage.h System/Library/Frameworks/QuartzCore.framework/Headers/CIColor.h e455b7250719dcb57cadadded553b54922611793fadd5686d43bcf029d362dec
+language=Objective-C
+interop=true
+linkerOpts=-framework QuartzCore
+compiler_version=0.9.1
+headerFilter=QuartzCore/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.QuartzCore

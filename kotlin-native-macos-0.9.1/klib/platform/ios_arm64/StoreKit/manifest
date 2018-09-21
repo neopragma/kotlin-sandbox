@@ -1,0 +1,14 @@
+#Fri Sep 14 21:46:49 MSK 2018
+unique_name=StoreKit
+compilerOpts=-framework StoreKit
+headers=StoreKit/StoreKit.h
+depends=stdlib posix darwin Foundation CoreGraphics EAGL Metal QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.h System/Library/Frameworks/StoreKit.framework/Headers/SKAdNetwork.h System/Library/Frameworks/StoreKit.framework/Headers/StoreKitDefines.h System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceController.h System/Library/Frameworks/StoreKit.framework/Headers/SKCloudServiceSetupViewController.h System/Library/Frameworks/StoreKit.framework/Headers/SKDownload.h System/Library/Frameworks/StoreKit.framework/Headers/SKError.h System/Library/Frameworks/StoreKit.framework/Headers/SKPayment.h System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentQueue.h System/Library/Frameworks/StoreKit.framework/Headers/SKPaymentTransaction.h System/Library/Frameworks/StoreKit.framework/Headers/SKProduct.h System/Library/Frameworks/StoreKit.framework/Headers/SKProductDiscount.h System/Library/Frameworks/StoreKit.framework/Headers/SKProductsRequest.h System/Library/Frameworks/StoreKit.framework/Headers/SKRequest.h System/Library/Frameworks/StoreKit.framework/Headers/SKProductStorePromotionController.h System/Library/Frameworks/StoreKit.framework/Headers/SKReceiptRefreshRequest.h System/Library/Frameworks/StoreKit.framework/Headers/SKStoreProductViewController.h System/Library/Frameworks/StoreKit.framework/Headers/SKStoreReviewController.h 0019dfa12faf0d0d8d9772b80950cdf790ae0542adff1914cc9db4d8ec54e8e2
+language=Objective-C
+interop=true
+linkerOpts=-framework StoreKit
+compiler_version=0.9.1
+headerFilter=StoreKit/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.StoreKit

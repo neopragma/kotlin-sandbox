@@ -1,0 +1,14 @@
+#Fri Sep 14 22:28:04 MSK 2018
+unique_name=UserNotifications
+compilerOpts=-framework UserNotifications
+headers=UserNotifications/UserNotifications.h
+depends=stdlib posix darwin Foundation
+includedHeaders=System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.h System/Library/Frameworks/UserNotifications.framework/Headers/NSString+UserNotifications.h System/Library/Frameworks/UserNotifications.framework/Headers/UNError.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotification.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationAction.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationAttachment.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationCategory.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationContent.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationRequest.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationResponse.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationSettings.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationSound.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationTrigger.h System/Library/Frameworks/UserNotifications.framework/Headers/UNUserNotificationCenter.h System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationServiceExtension.h dbb6c4cd0fb9282e8f18f7fbaed1a86d26e1a91f1200e451945046cbccf6b30d
+language=Objective-C
+interop=true
+linkerOpts=-framework UserNotifications
+compiler_version=0.9.1
+headerFilter=UserNotifications/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.UserNotifications

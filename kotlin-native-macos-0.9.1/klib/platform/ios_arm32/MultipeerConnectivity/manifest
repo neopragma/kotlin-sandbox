@@ -1,0 +1,14 @@
+#Fri Sep 14 20:54:47 MSK 2018
+unique_name=MultipeerConnectivity
+compilerOpts=-framework MultipeerConnectivity
+headers=MultipeerConnectivity/MultipeerConnectivity.h
+depends=stdlib posix darwin Foundation CoreGraphics EAGL Metal QuartzCore UIKit
+includedHeaders=System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MultipeerConnectivity.h System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCError.h System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCPeerID.h System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceAdvertiser.h System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCSession.h System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCNearbyServiceBrowser.h System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCAdvertiserAssistant.h System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MCBrowserViewController.h 9027ee1d1f5c6c24348570345573a26da26606b2d60cc93e19678f5c33b26213
+language=Objective-C
+interop=true
+linkerOpts=-framework MultipeerConnectivity
+compiler_version=0.9.1
+headerFilter=MultipeerConnectivity/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.MultipeerConnectivity

@@ -1,0 +1,14 @@
+#Fri Sep 14 20:20:06 MSK 2018
+unique_name=IOSurface
+compilerOpts=-framework IOSurface
+depends=stdlib
+headers.ios_arm64=IOSurface/IOSurfaceRef.h IOSurface/IOSurfaceObjC.h
+includedHeaders=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+language=Objective-C
+interop=true
+linkerOpts=-framework IOSurface
+compiler_version=0.9.1
+headerFilter=IOSurface/**
+abi_version=1
+exportForwardDeclarations=
+package=platform.IOSurface
